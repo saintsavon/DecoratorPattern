@@ -6,7 +6,17 @@ public class Lemon extends Pie {
 	}
 	
 	public double cost() {
-		return 4.99;
+		Size finalCost = getSize();
+
+		switch(finalCost) {
+			case SLICE:
+				return 3.49;
+			case HALF:
+				return 5.49;
+			case WHOLE:
+				return 7.49;
+		}
+		return 0;
 	}
 
 }

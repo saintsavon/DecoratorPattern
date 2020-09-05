@@ -4,7 +4,7 @@ public class PerfectPie extends Pie {
 
 	public static void main(String[] args) {
 		Pie pie = new Apple();
-		pie.setSize(Size.HALF);
+		pie.setSize(Size.WHOLE);
 		pie = new Whip(pie);
 		pie = new ChocIce(pie);
 		System.out.println(pie.getDescription() + " $" + String.format("%.2f", pie.cost()));
