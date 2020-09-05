@@ -21,5 +21,5 @@ public abstract class Pie {
 	}
 	
 	public abstract double cost();
-	
+
 }
