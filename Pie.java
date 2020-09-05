@@ -1,6 +1,3 @@
-// Decorator attempt, maybe a pie?
-// Figure out how to use Git with Eclipse
-
 // Abstract component
 public abstract class Pie {
 	public enum Size {SLICE, HALF, WHOLE};
