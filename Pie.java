@@ -5,6 +5,7 @@
 public abstract class Pie {
 	public enum Size {SLICE, HALF, WHOLE};
 	Size size = Size.SLICE;
+
 	String description = "Unknown Pie";
 	
 	public String getDescription() {
