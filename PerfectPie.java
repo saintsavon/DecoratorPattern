@@ -1,18 +1,16 @@
-// Test Code 
-
 //import Pie.Size;
 
 public class PerfectPie extends Pie {
 
 	public static void main(String[] args) {
 		Pie pie = new Apple();
-		pie.setSize(Size.SLICE);
+		pie.setSize(Size.HALF);
 		pie = new Whip(pie);
 		pie = new ChocIce(pie);
 		System.out.println(pie.getDescription() + " $" + String.format("%.2f", pie.cost()));
 
 		Pie pie2 = new Pecan();
-		pie2.setSize(Size.HALF);
+		pie2.setSize(Size.SLICE);
 		pie2 = new VanillaIce(pie2);
 		pie2 = new Whip(pie2);
 		System.out.println(pie2.getDescription() + " $" + String.format("%.2f", pie2.cost()));

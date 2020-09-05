@@ -6,7 +6,7 @@ public class Pecan extends Pie {
 	}
 	
 	public double cost() {
-		Size finalCost = Size.HALF;
+		Size finalCost = getSize();
 
 		switch(finalCost) {
 			case SLICE:
