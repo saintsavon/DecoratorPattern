@@ -2,7 +2,7 @@
 public class ChocIce extends CondimentDecorator {
 	Pie pie;
 	
-	public ChocIce(final Pie pie) {
+	public ChocIce(Pie pie) {
 		this.pie = pie;
 	}
 	

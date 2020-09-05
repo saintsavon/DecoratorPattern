@@ -1,9 +1,7 @@
-//import Pie.Size;
-
 public class PerfectPie extends Pie {
 
 	public static void main(String[] args) {
-		double tax = 1.07; //quicl Indiana state tax calculation
+		double tax = 1.07; //quick Indiana state tax calculation
 
 		Pie pie = new Apple();
 		pie.setSize(Size.WHOLE);
